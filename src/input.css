@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .social-media-icon {
+    @apply w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-400 text-slate-400 hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out;
+  }
+}
