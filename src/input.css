@@ -2,8 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .social-media-icon {
-    @apply w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-400 text-slate-400 hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out;
-  }
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-white bg-opacity-60;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 #0f172926;
+}
+
+.social-media-icon {
+  @apply w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-400 text-slate-400 hover:border-primary hover:bg-primary hover:text-white transition duration-300 ease-in-out;
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-dark;
+}
+
+.hamburger-active > span:first-child {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:last-child {
+  @apply -rotate-45;
+}
+
+.nav-link {
+  @apply text-base text-dark py-2 mx-8 inline-flex hover:text-primary relative after:absolute after:bottom-0 md:after:translate-x-1/2 md:after:right-1/2 after:bg-primary after:h-1 after:w-full md:after:w-9/12 after:rounded-full after:mx-auto after:scale-x-0 after:hover:scale-x-100 after:origin-left md:after:origin-center after:transition after:duration-300 after:ease-in-out transition duration-300 ease-in-out;
 }
