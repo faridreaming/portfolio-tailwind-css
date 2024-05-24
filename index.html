@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="dist/output.css" />
   </head>
   <body>
+    <!-- Header Section Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-white inline-block py-6 before:block before:absolute before:-inset-1 before:bg-primary before:-z-10 before:-scale-y-50 before:-scale-x-75 after:block after:absolute after:-inset-1 after:bg-primary after:-z-10 after:-scale-y-[.35] after:-skew-y-1 before:-skew-y-1 after:-skew-x-6 before:-skew-x-6 relative hover:opacity-80 transition duration-150 italic hover:drop-shadow-lg before:rounded after:rounded ease-in-out">Faridreaming</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 md:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded max-w-64 w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none">
+              <ul class="block md:flex">
+                <li class="group">
+                  <a href="#home" class="nav-link">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="nav-link whitespace-nowrap">Tentang Saya</a>
+                </li>
+                <li class="group">
+                  <a href="#skills" class="nav-link">Skill</a>
+                </li>
+                <li class="group">
+                  <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="nav-link">Kontak</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
     <!-- Hero Section Start -->
     <section id="home" class="pt-36">
       <div class="container">
@@ -22,7 +60,7 @@
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-0 lg:right-0">
-              <img src="dist/img/farid.webp" alt="Muhammad Farid" class="max-w-full mx-auto brightness-[1.35] grayscale contrast-[.9]" />
+              <img src="dist/img/farid.webp" alt="Muhammad Farid" width="400" class="max-w-full mx-auto brightness-[1.35] grayscale contrast-[.9]" />
               <span class="absolute bottom-0 -z-10 w-full">
                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                   <path fill="#a855f7" d="M59.2,-14.4C67.9,7.5,60,39.6,38.9,55.3C17.9,71,-16.3,70.3,-37.5,54.3C-58.6,38.3,-66.7,7,-58.3,-14.6C-49.9,-36.1,-24.9,-47.9,0.2,-48C25.3,-48,50.6,-36.3,59.2,-14.4Z" transform="translate(100 100)" />
@@ -111,5 +149,6 @@
       </div>
     </section>
     <!-- About Section End -->
+    <script src="dist/js/script.js"></script>
   </body>
 </html>
