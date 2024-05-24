@@ -33,5 +33,5 @@ body {
 }
 
 .nav-link {
-  @apply text-base text-dark py-2 mx-8 inline-flex hover:text-primary relative after:absolute after:bottom-0 md:after:translate-x-1/2 md:after:right-1/2 after:bg-primary after:h-1 after:w-full md:after:w-9/12 after:rounded-full after:mx-auto after:scale-x-0 after:hover:scale-x-100 after:origin-left md:after:origin-center after:transition after:duration-300 after:ease-in-out transition duration-300 ease-in-out;
+  @apply text-base text-dark py-2 mx-8 inline-flex hover:text-primary relative after:absolute after:bottom-0 lg:after:translate-x-1/2 lg:after:right-1/2 after:bg-primary after:h-1 after:w-full lg:after:w-9/12 after:rounded-full after:mx-auto after:scale-x-0 after:hover:scale-x-100 after:origin-left lg:after:origin-center after:transition after:duration-300 after:ease-in-out transition duration-300 ease-in-out;
 }
