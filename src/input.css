@@ -38,3 +38,11 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
+
+.image-outline {
+  --width: 0.15rem;
+  --color: #fff;
+  filter: brightness(1.1) drop-shadow(var(--width) 0 0 var(--color))
+    drop-shadow(calc((-1 * var(--width))) 0 0 var(--color)) drop-shadow(0 calc(-1 * var(--width)) 0 var(--color))
+    drop-shadow(0 var(--width) 0 var(--color));
+}
