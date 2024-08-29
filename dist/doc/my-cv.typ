@@ -67,7 +67,7 @@ I’m a Front-end Developer and Software Engineering Technology Student from Med
 #columns(2)[
   *SMKN 1 Setia Janji*
   #colbreak()
-  #align(end)[2023 - Present]
+  #align(end)[2020 - 2023]
 ]
 
 #pad(
