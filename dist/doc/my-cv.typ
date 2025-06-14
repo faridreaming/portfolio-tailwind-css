@@ -21,7 +21,7 @@
 
 == #underline(offset: 3pt)[ #pad(y: 3pt, "INTRODUCTION") ]
 
-I’m a Front-end Developer and Software Engineering Technology Student from Medan State Polytechnic. I’m a fast learner and self-taught. I have learned a lot of new technologies in the past few years by myself from the Internet.
+I’m a Fullstack Developer and Software Engineering Technology Student from Medan State Polytechnic. I’m a fast learner and self-taught. I have learned a lot of new technologies in the past few years by myself from the Internet.
 
 
 == #underline(offset: 3pt)[ #pad(y: 3pt, "WORK EXPERIENCE") ]
@@ -60,7 +60,7 @@ I’m a Front-end Developer and Software Engineering Technology Student from Med
   top: -6pt,
   [
     _Software Engineering Technology_\
-    Current GPA: 3.85
+    Current GPA: 3.86
   ],
 )
 
@@ -80,15 +80,18 @@ I’m a Front-end Developer and Software Engineering Technology Student from Med
 == #underline(offset: 3pt)[ #pad(y: 3pt, "SKILLS") ]
 
 *Programming Languages*: JavaScript, PHP, Python, Java, C++\
-*Frameworks*: React, Tailwind CSS, Bootstrap, Express\
+*Frameworks*: React, Tailwind CSS, Bootstrap, Express, CodeIgniter 4, Laravel\
 *DBMS*: MySQL, SQLite, MongoDB\
-*DevOps*: GitHub
+*Operating Systems*: Arch Linux, Ubuntu\
+*Tools*: Git, GitHub, VS Code, Cursor, Postman, Netlify\
+*Languages*: Bahasa Indonesia (native), English (intermediate)
 
 == #underline(offset: 3pt)[ #pad(y: 3pt, "FEATURED PROJECTS") ]
 
 #pad(
   left: 12pt,
   [
+    - #underline(offset: 3pt)[#text(blue)[#link("https://arrayhanmedan.com")[Ar-Rayhan Medan]]] - RA Ar-Rayhan official website, built using CodeIgniter 4
     - #underline(offset: 3pt)[#text(blue)[#link("https://todoctive-farid.vercel.app")[To Do Ctive]]] - To-do list application that makes you productive
     - #underline(offset: 3pt)[#text(blue)[#link("https://faridreaming.github.io/english-game")[Word Matching Game]]] - A game that challenges you to match the words provided with the correct meaning
     - #underline(offset: 3pt)[#text(blue)[#link("https://faridreaming.github.io/al-quran-wallpaper")[Al-Qur'an Wallpaper]]] - A website that provides wallpapers with verses from the Qur'an that can be used as wallpapers on your device
